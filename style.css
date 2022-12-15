@@ -1,0 +1,44 @@
+body {
+    background-color:  white
+}
+
+.container {
+                display: flex;
+                margin-top: 70px;
+                justify-content: space-evenly;
+              
+}
+
+.table {
+    background-color: rgb(234, 231, 231);;
+    text-align: left;
+}
+
+.pagenumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: inline-block;  */
+    /* margin: 200px   */
+}
+
+.pagenumbers button {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagenumbers button:hover {
+    background-color: lightgreen;
+}
+.tbody :hover {
+    background-color: lightblue;
+}
+.pagenumbers button.active {
+    background-color: rgb(16, 199, 16);
+}
+#page {
+   margin: 1px;
+}
+
